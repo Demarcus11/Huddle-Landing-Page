@@ -151,10 +151,11 @@ body {
 }
 
 .socials i {
-  width: 20px;
+  height: 10px;
+  width: 10px;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -162,7 +163,7 @@ body {
 @media (min-width: 800px) {
   .socials li:first-child i,
   .socials li:last-child i {
-    left: 55%;
+    left: 50%;
   }
 }
 
